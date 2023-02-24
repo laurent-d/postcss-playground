@@ -1,10 +1,14 @@
 {
   "dependencies": {
     "autoprefixer-core": "^5.1.11",
-    "postcss": "^4.1.8",
-    "postcss-nested": "^0.2.2",
+    "browserify": "^17.0.0",
+    "postcss": "^8.4.1",
+    "postcss-class-apply": "^4.0.1",
+    "postcss-nested": "^6.0.1",
     "postcss-simple-vars": "^0.2.4",
-    "postcss-spiffing": "0.0.4"
+    "postcss-spiffing": "0.0.4",
+    "uglify-js": "^3.17.4",
+    "uglifyjs": "^2.4.11"
   },
   "scripts": {
     "build": "browserify source.js | uglifyjs > bundle.js"
