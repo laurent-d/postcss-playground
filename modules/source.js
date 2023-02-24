@@ -5,5 +5,5 @@ window.modules = {
   autoprefixer: require('autoprefixer-core'),
   simpleVars: require('postcss-simple-vars'),
   nested: require('postcss-nested'),
-  apply: require('postcss-class-apply/dist')
+  apply: require('postcss-class-apply/dist/index')
 };
