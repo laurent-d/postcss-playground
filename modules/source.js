@@ -4,5 +4,6 @@ window.modules = {
   spiffing: require('postcss-spiffing'),
   autoprefixer: require('autoprefixer-core'),
   simpleVars: require('postcss-simple-vars'),
-  nested: require('postcss-nested')
+  nested: require('postcss-nested'),
+  apply: require('postcss-class-apply/dist')
 };
